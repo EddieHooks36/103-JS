@@ -12,8 +12,8 @@ function login(){
     //comapre the name and pass with the database values
     if(username==dbUser){
            //display login success HTML
-        document.getElementById("login-result"). innerHTML=`<h2 style="font-family:aerial;">Welcome to the admin site!</h2>`;
-        
+            document.getElementById("login-result"). innerHTML=`<h2 style="font-family:aerial;">Welcome to the admin site!</h2>`;
+            
     }else{
         document.getElementById("login-result"). innerHTML=`<p class="alert-error">Invalid credentials. Please try again</p>`;
     }
