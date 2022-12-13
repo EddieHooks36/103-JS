@@ -1,6 +1,6 @@
 //global variables (database)
 let dbUser = "admin@myamazon.com";
-let dbPass = "sharedpass1234"
+let dbPass = "sharedpass1234";
 function login(){
     
 
